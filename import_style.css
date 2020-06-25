@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+}
+/* 头部样式 */
+#header {
+    height: 60px;
+}
+#header .header_center {
+    width:1000px;
+    height: 60px;
+    margin: 0 auto;
+}
+#header .header_center .header_center_left {
+    float: left;
+    margin-top: 20px;
+}
+#header .header_center .header_center_right {
+    float: right;
+    margin-top: 20px;
+}
+#header .header_center .header_center_right a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+/* 主体第一栏 */
+#firstSection {
+    height:80px;
+}
+#firstSection .firstsection_center {
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+#firstSection .firstsection_center .firstsection_center_left {
+    float: left;
+}
+#firstSection .firstsection_center .firstsection_center_left h3 {
+    color: rgba(0, 0, 0, 0.836);
+    margin-bottom: 0;
+}
+#firstSection .firstsection_center .firstsection_center_left h5 {
+    color: rgb(107, 96, 96);
+    margin-top: 0;
+}
+#firstSection .firstsection_center .firstsection_center_right {
+    float: right;
+    margin-top: 20px;
+    width: 600px;
+    border: 1px solid rgb(235, 11, 11);
+    position: relative;
+
+}
+#firstSection .firstsection_center .firstsection_center_right ul {
+    list-style: none;
+    height: 20px;
+    padding-left: 0;
+    
+}
+#firstSection .firstsection_center .firstsection_center_right ul li {
+    float: left;
+    width: 100px;
+    line-height: 20px;
+    text-align: center;
+}
+#firstSection .firstsection_center .firstsection_center_right ul li a {
+    text-decoration:none;
+}
+.huakuai {
+    background-color: rgba(22, 2, 2, 0.767);
+    height: 3px;
+    width: 100px;
+    position: absolute;
+}
+/* 主体第二部分 */
+#secondSection {
+    height:300px;
+
+}
+#secondSection .secondsection_center {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.rotation_chart {
+    width: 400px;
+    height: 250px;
+    
+}
+.rotation_chart ul {
+    padding-left: 0;
+}
+.rotation_chart ul li {
+    float: left;
+    list-style: none;
+}
+.rotation_chart ul li img {
+    float: left;
+    width: 400px;
+    height: 250px;
+
+}
+.round_dot {
+    position: absolute;
+    left: 160px;
+    bottom: 50px;
+    z-index: 999;
+    
+}
+.round_dot li { 
+    float: left;
+    width: 16px;
+    height: 4px;
+}
+.round_dot li:hover {
+    cursor: pointer;
+}
+.left_arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    left:0px;
+    top:100px;
+    cursor: pointer;
+}
+.left_arrow img {
+    width: 50px;
+    height: 50px;
+}
+.right_arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    left: 350px;
+    top: 100px;
+    cursor: pointer;
+}
+.right_arrow img {
+    width:50px;
+    height: 50px;
+}
+#secondSection .secondsection_center .secondsection_center_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 500px;
+}
+#secondSection .secondsection_center .secondsection_center_right .scr_top {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px ;
+    border: 1px solid rgb(236, 6, 6);
+    text-align: center;
+    line-height: 100px;
+}
+#secondSection .secondsection_center .secondsection_center_right .scr_bottom {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px ;
+    border: 1px solid rgb(228, 10, 10);
+    text-align: center;
+    line-height: 100px;
+}
+/* 主体第三部分 */
+#thirdSection {
+    height: 400px;
+}
+#thirdSectioncenter {
+    margin: 0 auto;
+    width: 1000px;
+    height: 400px;
+}
+/* 主体第四部分 */
+#fourthSection {
+    height:300px;
+}
+#fourthSection .fourthsection_center {
+    margin: 0px auto;
+    width:1000px;
+    height:100%;
+}
+#fourthSection .fourthsection_center .fourthsection_center_left {
+    float: left;
+    width: 450px;
+    height: 100%;
+    border: 1px solid rgb(241, 5, 5);
+}
+#fourthSection .fourthsection_center .fourthsection_center_right {
+    float: right;
+    width: 450px;
+    height: 100%;
+    border: 1px solid rgb(231, 7, 7);
+}
+/* 尾部 */
+#footer {
+    height: 200px;
+    background-color: rgb(10, 10, 10);
+}
+#footer .footer_center{
+    height: 100%;
+    width: 1000px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
